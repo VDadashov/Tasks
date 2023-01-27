@@ -7,7 +7,6 @@ namespace task1
         static void Main(string[] args)
         {
             // Verilmiş ədədin rəqəmləri cəmini tapan proqram
-            // N = 234
 
             Console.WriteLine("Ededi daxil edin");
             string input = Console.ReadLine();
