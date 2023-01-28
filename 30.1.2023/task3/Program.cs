@@ -8,10 +8,12 @@ namespace task3
         {
             // Verilmiş ədədlər siyahısındaki 21-ə bölenən ədədlərin ədədi ortasını tapan proqram
 
-            int[] numbers = { 12, 21, 78, 42, 102, 67, 84 };
+            int[] numbers = { 12, 21, 78, 42, 102, 63, 84 };
 
-            int sum = 0;
-            int count = 0;
+            double sum = 0;
+            double count = 0;
+
+            double EdediOrta;
 
             for (int i = 0; i < numbers.Length; i++)
             {
@@ -28,8 +30,11 @@ namespace task3
             }
             else
             {
-                Console.WriteLine("ededi orta --> "+ (sum / count));
+                EdediOrta = sum / count;
+                Console.WriteLine(EdediOrta);
             }
+
+            
         }
     }
 }
