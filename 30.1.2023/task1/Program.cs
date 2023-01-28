@@ -10,15 +10,15 @@ namespace task1
 
             Console.WriteLine("Ededi daxil edin");
             string input = Console.ReadLine();
-            int N  = Convert.ToInt32(input);
+            int num  = Convert.ToInt32(input);
 
             int sum = 0;
 
-            while (N > 0)
+            while (num != 0)
             {
-                int index = N % 10;
-                sum += index;
-                N /= 10;
+                int r = num % 10;
+                num = num / 10;
+                sum = sum + r;
             }
             Console.WriteLine(sum);
 
