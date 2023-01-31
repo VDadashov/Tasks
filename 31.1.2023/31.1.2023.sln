@@ -5,19 +5,23 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task1", "task1\task1.csproj", "{94C6C112-37B2-4FF2-AD66-F27417464AD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task2", "task2\task2.csproj", "{0A716E68-2CE0-431B-BE2F-49A690A2D8A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task2", "task2\task2.csproj", "{0A716E68-2CE0-431B-BE2F-49A690A2D8A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task3", "task3\task3.csproj", "{5CFF94C2-0FBA-46A0-A4F2-E1E96383F49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task3", "task3\task3.csproj", "{5CFF94C2-0FBA-46A0-A4F2-E1E96383F49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4", "task4\task4.csproj", "{A66CCC40-3D37-42FC-83C7-D4260C19F6FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4", "task4\task4.csproj", "{A66CCC40-3D37-42FC-83C7-D4260C19F6FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task5", "task5\task5.csproj", "{9DA480BF-CD43-4F85-BEEE-2DC110F39882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task5", "task5\task5.csproj", "{9DA480BF-CD43-4F85-BEEE-2DC110F39882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task6", "task6\task6.csproj", "{E885B8C7-717A-4356-80D9-E72F837312DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task6", "task6\task6.csproj", "{E885B8C7-717A-4356-80D9-E72F837312DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task7", "task7\task7.csproj", "{4E4A1891-4301-4E20-BFAF-AEFAFEF9AE4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task7", "task7\task7.csproj", "{4E4A1891-4301-4E20-BFAF-AEFAFEF9AE4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task8", "taask8\task8.csproj", "{1B412DFC-CF23-4FDF-89FF-97E3A568713F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task8", "taask8\task8.csproj", "{1B412DFC-CF23-4FDF-89FF-97E3A568713F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork1", "classwork1\classwork1.csproj", "{39420C9C-A731-485A-A0A2-B8F6481EA457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork2", "classwork2\classwork2.csproj", "{4D713E1E-D946-45B1-B171-E8B174D9699E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{1B412DFC-CF23-4FDF-89FF-97E3A568713F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B412DFC-CF23-4FDF-89FF-97E3A568713F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B412DFC-CF23-4FDF-89FF-97E3A568713F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39420C9C-A731-485A-A0A2-B8F6481EA457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39420C9C-A731-485A-A0A2-B8F6481EA457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39420C9C-A731-485A-A0A2-B8F6481EA457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39420C9C-A731-485A-A0A2-B8F6481EA457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D713E1E-D946-45B1-B171-E8B174D9699E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D713E1E-D946-45B1-B171-E8B174D9699E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D713E1E-D946-45B1-B171-E8B174D9699E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D713E1E-D946-45B1-B171-E8B174D9699E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
