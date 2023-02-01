@@ -6,17 +6,17 @@ namespace task3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Verilmiş yazıdaki sözlərin sayanı tapan metod.");
+            Console.WriteLine("Verilmiş yazıdaki sözlerin sayanı tapan metod.");
             Console.WriteLine("Text'i daxil edin");
             string text = Console.ReadLine();
-            Console.WriteLine(CountWords(text));
+            Console.WriteLine(CountWords2(text));
         }
 
         // Verilmiş yazıdaki sözlərin sayanı tapan metod.
         // Boşluqla bir birindən ayrılmış bütün ifadələri söz kimi qəbul edin.
         // Və hər söz arasında bir boşluq varmış kimi hesab edin.
 
-        static int CountWords(string text)
+        static int CountWords1(string text)
         {
             int wordCount = 0;
             bool wordStarted = false;
@@ -32,6 +32,14 @@ namespace task3
                     wordCount++;
                 }
             }
+            return wordCount;
+        }
+
+        static int CountWords2(string text)
+        {
+            string[] words = text.Split(' ');
+            int wordCount = words.Length;
+
             return wordCount;
         }
     }
