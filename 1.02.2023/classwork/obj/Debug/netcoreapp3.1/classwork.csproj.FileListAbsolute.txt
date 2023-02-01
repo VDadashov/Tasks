@@ -1,0 +1,14 @@
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\bin\Debug\netcoreapp3.1\classwork.exe
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\bin\Debug\netcoreapp3.1\classwork.deps.json
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\bin\Debug\netcoreapp3.1\classwork.runtimeconfig.json
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\bin\Debug\netcoreapp3.1\classwork.runtimeconfig.dev.json
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\bin\Debug\netcoreapp3.1\classwork.dll
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\bin\Debug\netcoreapp3.1\classwork.pdb
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.csproj.AssemblyReference.cache
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.AssemblyInfoInputs.cache
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.AssemblyInfo.cs
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.csproj.CoreCompileInputs.cache
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.dll
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.pdb
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\1.02.2023\classwork\obj\Debug\netcoreapp3.1\classwork.genruntimeconfig.cache
