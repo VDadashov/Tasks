@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ProjectStudent
 {
@@ -15,7 +16,7 @@ namespace ProjectStudent
 
             do
             {
-                Console.WriteLine("\n1. Butun telebelere bax");
+                Console.WriteLine("\n1.Butun telebelere bax");
                 Console.WriteLine("2.Yeni telebe elave et");
                 Console.WriteLine("3.Telebeler uzre axtaris et");
                 Console.WriteLine("4.Telebelerin adlarina bax");
@@ -28,10 +29,7 @@ namespace ProjectStudent
                 switch (option)
                 {
                     case "1":
-                        for (int i = 0; i < Students.Length; i++)
-                        {
-                            Console.WriteLine(Students[i]);
-                        }
+                        AllStudentsShow(Students);
                         break;
 
                     case "2":
@@ -41,7 +39,7 @@ namespace ProjectStudent
                         
                         if (fullName.Length < 3)
                         {
-                            Console.WriteLine("FullName 2den uzun olmalidi");
+                            Console.WriteLine("FullName minumum 3 uzunluqda olmalidir:");
                             goto TryFullname;
                         }
 
@@ -52,33 +50,14 @@ namespace ProjectStudent
                         break;
 
                     case "3":
+
                         Console.WriteLine("Axtaris deyeri daxil et:");
-                        string text = Console.ReadLine();
-                        bool isValue = false;
-
-                        for (int i = 0; i < Students.Length; i++)
-                        {
-                            if (Students[i].Contains(text))
-                            {
-                                Console.WriteLine(Students[i]);
-                                isValue = true;
-                            }
-                        }
-                        if (isValue == false)
-                        {
-                            Console.WriteLine("Axtaris deyerin'de fullName yoxdur");
-                        }
-
+                        string text = Console.ReadLine();                      
+                        SearchForStudents(Students, text);
                         break;
 
                     case "4":
-
-                        for (int i = 0; i < Students.Length; i++)
-                        {
-                            int SpaceIndex = Students[i].IndexOf(' ');
-                            Console.WriteLine(Students[i].Substring(0,SpaceIndex ));
-                        }
-
+                        ViewStudentsName(Students);
                         break;
 
                     case "5":
@@ -107,7 +86,7 @@ namespace ProjectStudent
                         break;
 
                     case "0":
-                        Console.WriteLine("Menu'dan cixilir...");
+                        Console.WriteLine("Menu'dan cixildi...");
                         break;
 
                     default:
@@ -141,8 +120,43 @@ namespace ProjectStudent
 
             fullName= newStr;
         }
-    }
 
-    
+        static void AllStudentsShow(string[] students)
+        {
+            Console.WriteLine("\nTeleberin FullName'ler i:");
+            for (int i = 0; i < students.Length; i++)
+            {
+                Console.WriteLine(students[i]);
+            }
+        }
+
+        static void SearchForStudents(string[] students, string input) // Axtaris deyerini yoxlayan metod
+        {
+            bool isValue = false;
+
+            for (int i = 0; i < students.Length; i++)
+            {
+                if (students[i].Contains(input))
+                {
+                    Console.WriteLine(students[i]);
+                    isValue = true;
+                }
+            }
+            if (isValue == false)
+            {
+                Console.WriteLine("Axtaris deyerin'de fullName yoxdur");
+            }
+        }
+
+        static void ViewStudentsName(string[] students)
+        {
+            Console.WriteLine("\nTeleberin adlari:");
+            for (int i = 0; i < students.Length; i++)
+            {
+                int SpaceIndex = students[i].IndexOf(' ');
+                Console.WriteLine(students[i].Substring(0, SpaceIndex));
+            }
+        }
+    }
    
 }
