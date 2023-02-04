@@ -50,10 +50,9 @@ namespace ProjectStudent
                         break;
 
                     case "3":
-
                         Console.WriteLine("Axtaris deyeri daxil et:");
-                        string text = Console.ReadLine();                      
-                        SearchForStudents(Students, text);
+                        string searchValue = Console.ReadLine();                      
+                        SearchForStudents(Students, searchValue);
                         break;
 
                     case "4":
@@ -62,14 +61,14 @@ namespace ProjectStudent
 
                     case "5":
                         Console.WriteLine("\nTelebenin fullName daxil edin:");
-                        string searchPerson = Console.ReadLine();
+                        string searchStudents = Console.ReadLine();
 
-                        StartLetterUpper(ref searchPerson);
+                        StartLetterUpper(ref searchStudents);
                         bool isExist = false;
 
                         for (int i = 0; i < Students.Length; i++)
                         {
-                            if (Students[i] == searchPerson)
+                            if (Students[i] == searchStudents)
                             {
                                 isExist = true;
                             }
