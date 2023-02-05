@@ -13,6 +13,7 @@ namespace ProjectStudent
             string[] Students = { "Vusal Dadashov","Murad Quliyev","Fexri Ehmedov","Emin Suleymanov" };
 
             string option;
+            
 
             do
             {
@@ -100,13 +101,13 @@ namespace ProjectStudent
         static void StartLetterUpper(ref string fullName) // FullName'de first ve last namelerini upper eden metod
         {
             string newStr = "";
-            var arr = fullName.Split(' ');
+            trySplit: var arr = fullName.Split(' ');
 
-            while (arr.Length < 2) // FirstName ve LastName oldugu ucun Length 2den az ola bilmez...
+            if (arr.Length < 2) // FirstName ve LastName oldugu ucun Length 2den az ola bilmez...
             {
                 Console.WriteLine("\nFullName yanlishdir , yeniden daxil edin:");
                 fullName = Console.ReadLine();
-                arr = fullName.Split(" ");
+                goto trySplit;
             }
 
             for (int i = 0; i < arr.Length; i++)
