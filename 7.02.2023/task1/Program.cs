@@ -25,7 +25,7 @@ namespace task1
 
             Notebook[] products = new Notebook[] {product1,product2, product3};
 
-            int sum = 0;
+            double sum = 0;
             int count = 0;
 
             for (int i = 0; i < products.Length; i++)
