@@ -41,7 +41,7 @@ namespace AccessModifiers_2
 
         public bool CheckBool(string value)
         {
-            if (value.Length == 3 && char.IsUpper(value[0]) && char.IsDigit(value[1]) && char.IsDigit(value[2]) && char.IsDigit(value[3]))
+            if (value.Length == 4 && char.IsUpper(value[0]) && char.IsDigit(value[1]) && char.IsDigit(value[2]) && char.IsDigit(value[3]))
             {
                 return true;
             }
