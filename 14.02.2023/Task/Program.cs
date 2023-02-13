@@ -13,8 +13,8 @@ namespace Task
                 Console.WriteLine("\n1. Qrup elave et");
                 Console.WriteLine("2. Bütün qruplara bax");
                 Console.WriteLine("3. Verilmiş point aralığındaki qruplara bax");
-                Console.WriteLine("4. Verilmiş nömrəsi qrupa bax");
-                Console.WriteLine("5. Verilmiş qruplar üzrə axtarış et");
+                Console.WriteLine("4. Verilmiş nömresi qrupa bax");
+                Console.WriteLine("5. Verilmiş qruplar üzre axtarış et");
                 Console.WriteLine("0 . Menudan cıx");
 
                 Console.Write("\nEmeliyyat secin: ");
