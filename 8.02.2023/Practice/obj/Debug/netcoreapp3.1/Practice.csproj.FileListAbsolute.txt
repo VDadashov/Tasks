@@ -1,0 +1,14 @@
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\bin\Debug\netcoreapp3.1\Practice.exe
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\bin\Debug\netcoreapp3.1\Practice.deps.json
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.json
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\bin\Debug\netcoreapp3.1\Practice.runtimeconfig.dev.json
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\bin\Debug\netcoreapp3.1\Practice.dll
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\bin\Debug\netcoreapp3.1\Practice.pdb
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.AssemblyReference.cache
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfoInputs.cache
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.AssemblyInfo.cs
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.dll
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.pdb
+C:\Users\Vusal Dadasov\OneDrive\Masaüstü\CodeAcademy\C#\Tasks\8.02.2023\Practice\obj\Debug\netcoreapp3.1\Practice.genruntimeconfig.cache

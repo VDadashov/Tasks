@@ -13,11 +13,16 @@ namespace task1
 
         public string Brand;
         public string Model;
-        public int Millage;
+        public double Millage;
         
         public virtual void Showinfo() 
         {
             Console.WriteLine($"Brand: {Brand} - Model: {Model} - Millage: {Millage}");
-        }       
+        }
+
+        public virtual void Drive(double distance)
+        {
+            Millage += distance;
+        }
     }
 }
